@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Brothers GM: PC Killboard</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #1a1a1a;
+      color: #f0f0f0;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #ff4444;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 3rem;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 0.5rem;
+      text-align: left;
+    }
+
+    th {
+      background: #333;
+    }
+
+    tr:nth-child(even) {
+      background: #2a2a2a;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚔️ Brothers GM: PC Killboard</h1>
+
+  <h2>📊 GM Leaderboard</h2>
+  <table id="leaderboard">
+    <thead>
+      <tr>
+        <th>GM Name</th>
+        <th>PCs Killed</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>James</td><td>12</td></tr>
+      <tr><td>Oliver</td><td>9</td></tr>
+    </tbody>
+  </table>
+
+  <h2>💀 Fallen Characters</h2>
+  <table id="deathlog">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Cause of Death</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sir Reginald</td>
+        <td>Overconfident knight with a shiny sword</td>
+        <td>Disintegrated by a miscast spell</td>
+      </tr>
+      <tr>
+        <td>Elsa the Quick</td>
+        <td>Halfling rogue, loved knives</td>
+        <td>Tripped a dart trap while flexing</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
