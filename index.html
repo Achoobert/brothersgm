@@ -13,68 +13,49 @@
   <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
   <title>Brothers GM</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #1a1a1a;
-      color: #f0f0f0;
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
+  <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <!-- about us -->
 
-    h1, h2 {
-      color: #ff4444;
-    }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 3rem;
-    }
-
-    th, td {
-      border: 1px solid #444;
-      padding: 0.5rem;
-      text-align: left;
-    }
-
-    th {
-      background: #333;
-    }
-
-    tr:nth-child(even) {
-      background: #2a2a2a;
-    }
-  </style>
-</head>
-<body>
-<p><a href="/playerguide/">Player Guide Page</a></p>
+  <!-- there's nothing like in-family games -->
+  <!-- articles -->
+  <p style="text-align:center;margin-bottom:2rem;">
+    <a href="/playerguide" style="font-size:1.2rem;font-weight:bold;color:#ff4444;text-decoration:none;">
+      🎲 Read: How to Find and Play in Online Games (Player Guide)
+    </a>
+  </p>
 
   <h1>⚔️ Brothers GM: PC Killboard</h1>
-  <h2>📊 GM Leaderboard</h2>
-  <table id="leaderboard">
-    <thead>
-      <tr>
-        <th>GM Name</th>
-        <th>PCs Killed</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-         <td>Isaac</td>
-         <td>3</td>
-      </tr>
-      <tr>
-         <td>John</td>
-         <td>1</td>
-      </tr>
-      <tr>
-         <td>Zach</td>
-         <td>0</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="gm-flex-row">
+    <img src="assets/brothers.webp" alt="Brothers GM group photo" class="gm-group-img">
+    <div class="gm-leaderboard-wrap">
+      <h2>📊 GM Leaderboard</h2>
+      <table id="leaderboard">
+        <thead>
+          <tr>
+            <th>GM Name</th>
+            <th>PCs Killed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Isaac</td>
+            <td>7</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Zach</td>
+              <td>0</td>
+            </tr>
+            </tbody>
+            </table>
+    </div>
+    </div>
 
   <h2>💀 Fallen Characters</h2>
   <table id="deathlog">
@@ -88,29 +69,48 @@
     </thead>
     <tbody>
       <tr>
-      <td><img src="./img_assets/zilliam.webp" style="max-width: 80px;"></td>
+      <td><img src="assets/dead_pcs/zilliam.webp" alt="Zilliam" style="max-width: 80px;"></td>
       <td>Zilliam</td>
       <td>749 year old elf wizard</td>
       <td>Hit by a thirsty bird</td>
       </tr>
       <tr>
-        <td><img src="./img_assets/zilliam.webp" style="max-width: 80px;"></td>
+        <td><img src="assets/dead_pcs/patric_boggins.webp" alt="Patrick Boggins" style="max-width: 80px;"></td>
          <td>Patrick Boggins</td>
          <td>Criminal Accountant</td>
          <td>Absorbed into Azathoth</td>
       </tr>
       <tr>
-        <td><img src="./img_assets/zilliam.webp" style="max-width: 80px;"></td>
+        <td><img src="assets/dead_pcs/billy_earl.webp" alt="Billy Earl" style="max-width: 80px;"></td>
          <td>Billy Earl</td>
          <td>Moonshiner</td>
          <td>Gazed upon Azathoth, flailing corpse was subsumed</td>
       </tr>
       <tr>
-        <td><img src="./img_assets/zilliam.webp" style="max-width: 80px;"></td>
+        <td><img src="assets/dead_pcs/richard.webp" alt="Richard Rhodes" style="max-width: 80px;"></td>
          <td>Richard Rhodes</td>
          <td>Paranoid reporter</td>
          <td>Gazed upon Azathoth, body was abandoned</td>
       </tr>
+    <tr>
+      <td><img src="assets/dead_pcs/james.webp" alt="James" style="max-width: 80px;"></td>
+      <td>James</td>
+      <td>Person of questionable employment, specialized in violence</td>
+      <td>Went insane, attempted to kill other party members, there was retaliation </td>
+    </tr>
+    <tr>
+      <td><img src="assets/dead_pcs/evelyn_carter.webp" alt="Evelyn Carter" style="max-width: 80px;"></td>
+      <td>Evelyn Carter</td>
+      <td>Nurse, scarred by war. </td>
+      <td>Tried to flee after being trapped after reality collapsed</td>
+    </tr>
+    
+    <tr>
+      <td><img src="assets/dead_pcs/arthur_mcadams.webp" alt="Arthur McAdams" style="max-width: 80px;"></td>
+      <td>Arthur McAdams</td>
+      <td>Bostonian who turned to a life of crime. Left behind a mother who is probibaly still praying for him</td>
+      <td>Hypnos</td>
+    </tr>
       <!--
          <tr>
          <td>character_name</td>
