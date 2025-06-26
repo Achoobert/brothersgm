@@ -1,0 +1,98 @@
+body {
+   font-family: sans-serif;
+   background: #1a1a1a;
+   color: #f0f0f0;
+   padding: 2rem;
+   max-width: 800px;
+   margin: auto;
+}
+
+h1,
+h2 {
+   color: #ff4444;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 3rem;
+}
+
+th,
+td {
+   border: 1px solid #444;
+   padding: 0.5rem;
+   text-align: left;
+}
+
+th {
+   background: #333;
+}
+
+tr:nth-child(even) {
+   background: #2a2a2a;
+}
+
+/* Light table style for playerguide */
+.light_table {
+   background: none;
+}
+
+.light_table th,
+.light_table td {
+   border: 1px solid #444;
+   padding: 0.5rem;
+   text-align: left;
+   text-shadow: #9d0000;
+   color: #ffffff;
+}
+
+.light_table th {
+   background: #333;
+}
+
+.light_table tr:nth-child(even) {
+   background: #c9c9c9;
+   text-shadow: #9d0000;
+   color: #000000;
+}
+
+.light_table tr:nth-child(odd) {
+   background: #9e9e9e;
+   color: #000000;
+}
+
+.gm-flex-row {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   gap: 2rem;
+   margin: 2rem 0 1rem 0;
+   justify-content: center;
+}
+
+.gm-group-img {
+   max-width: 300px;
+   border-radius: 1rem;
+   box-shadow: 0 2px 16px #0007;
+   flex: 0 0 auto;
+   margin: 0;
+}
+
+.gm-leaderboard-wrap {
+   flex: 1 1 250px;
+   min-width: 220px;
+   max-width: 400px;
+}
+
+@media (max-width: 700px) {
+   .gm-flex-row {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .gm-group-img,
+   .gm-leaderboard-wrap {
+      max-width: 100%;
+   }
+}
